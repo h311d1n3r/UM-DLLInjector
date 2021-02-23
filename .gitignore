@@ -1,0 +1,8 @@
+x64/
+*.sln
+*.vcxproj
+*.filters
+*.user
+*.iobj
+*.ipdb
+*.pdb
