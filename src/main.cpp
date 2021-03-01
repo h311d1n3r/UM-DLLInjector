@@ -60,8 +60,10 @@ int main() {
             SetConsoleTextAttribute(hConsole, 12);
             cout << "Unable to inject DLL..." << endl;
         }
-        SetConsoleTextAttribute(hConsole, 10);
-        cout << "DLL successfully injected !" << endl;
+        else {
+            SetConsoleTextAttribute(hConsole, 10);
+            cout << "DLL successfully injected !" << endl;
+        }
     }
     else {
         SetConsoleTextAttribute(hConsole, 12);
